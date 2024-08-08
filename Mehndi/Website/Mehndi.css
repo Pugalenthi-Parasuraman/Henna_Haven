@@ -1,0 +1,360 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f9f5f6;
+  overflow-y: hidden;
+}
+
+.nav-text li {
+  text-align: center;
+  background-color: #850101;
+  color: #f8e9bd;
+  top: 10px;
+  padding: 10px;
+  border: 1px solid #e7c27e;
+  list-style-type: none;
+  font-family: "Poppins", "sans-serif";
+  text-transform: uppercase;
+}
+
+.navbar {
+  background-color: #850101;
+  border: 2px solid #e7c27e;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  display: flex;
+  justify-content: center;
+  gap: 600px;
+}
+
+.nav-logo img {
+  width: 100px;
+  height: 100px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #f8e9bd;
+  padding: 0px 20px;
+  margin: 0px 30px;
+  font-family: "Poppins", "sans-serif";
+  cursor: default;
+  position: relative;
+}
+
+.nav-menu {
+  margin-top: 50px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.nav-menu a:hover {
+  color: #e7c27e;
+}
+
+.nav-menu a::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background-color: #e7c27e;
+  transition: all 0.5s;
+}
+
+.nav-menu a:hover::before {
+  width: 100%;
+}
+
+.nav-image img {
+  width: 100%;
+  height: 580px;
+  border: 1px solid #e7c27e;
+}
+
+.navbar-image {
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+.container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.main-content {
+  height: 100vh;
+  scroll-snap-align: start;
+  text-align: center;
+}
+
+.main-content li {
+  padding: 20px 0px 15px 0px;
+  list-style-type: none;
+  font-family: "Poppins", "sans-serif";
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: black;
+  letter-spacing: 1px;
+}
+
+.main-image img {
+  width: 225px;
+  height: 250px;
+  padding-left: 0px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.main-image-bg {
+  background-color: #850101;
+  width: 230px;
+  height: 250px;
+  border-radius: 2px;
+}
+
+.main-image {
+  position: relative;
+  transition: all 0.5s;
+}
+
+.main-bg1 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10px;
+}
+
+.main-bg2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 90px;
+}
+
+.caption {
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  width: 98%;
+  height: 97%;
+  border-radius: 1px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color: rgba(0, 0, 0, 0.527);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  opacity: 0;
+  transition: all 0.5s;
+  font-family: "Poppins";
+}
+
+.caption h1 {
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.caption p {
+  color: #e7c27e;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.main-image-bg:hover .caption {
+  opacity: 1;
+  background-color: rgba(0, 0, 0b, 0.5);
+}
+
+.main-image-bg:hover {
+  transform: scale(1.1);
+  
+  box-shadow: 1px 1px 20px 8px #51505060;
+}
+
+button {
+  padding: 10px 80px;
+  border: 1px solid #850101;
+  background-color: #f9f5f6;
+  font-family: "Poppins", "sans-serif";
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 500;
+  margin-top: 15px;
+  position: relative;
+  z-index: 1;
+  transition: 0.5s;
+  cursor: pointer;
+  color: black;
+}
+
+button:hover {
+  color: #850101;
+}
+
+button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #e7c27e;
+  z-index: -1;
+  transform-origin: left;
+  transition: transform 0.5s ease;
+  transform: scaleX(1);
+}
+
+button:hover::before {
+  transform-origin: right;
+  transition: transform 0.5s ease;
+  transform: scaleX(0);
+  color: #e7c27e;
+}
+
+.service-content {
+  height: 100vh;
+  scroll-snap-align: start;
+  text-align: center;
+}
+
+.wrapper {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #f9f5f6;
+}
+.wrapper h1 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 25px 0px 20px 0px;
+  letter-spacing: 1px;
+}
+
+.services p {
+  text-align: center;
+  width: 1270px;
+}
+
+.content-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: initial;
+  width: 1270px;
+  margin-top: 30px;
+}
+.card {
+  min-height: 220px;
+  width: 320px;
+  padding: 30px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #fff;
+  margin: 20px 18px;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+}
+.card i {
+  margin: 20px;
+  color: #e7c27e;
+}
+.card h2 {
+  margin-bottom: 12px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+}
+.card p {
+  color: #6c757d;
+  text-align: center;
+}
+.card:hover i,
+.card:hover p {
+  color: #850101;
+}
+.card:hover h2 {
+  font-weight: 600;
+}
+.card:nth-child(1):hover {
+  background: linear-gradient(45deg, #e7c27e 0%, #e7c27e95 100%), url("");
+  background-size: cover;
+}
+.card:nth-child(2):hover {
+  background: linear-gradient(45deg, #e7c27e 0%, #e7c27e95 100%), url("");
+  background-size: cover;
+}
+.card:nth-child(3):hover {
+  background: linear-gradient(45deg, #e7c27e 0%, #e7c27e95 100%), url("");
+  background-size: cover;
+}
+.card:nth-child(4):hover {
+  background: linear-gradient(45deg, #e7c27e 0%, #e7c27e95 100%), url("");
+  background-size: cover;
+}
+
+footer {
+  padding-top: 500px;
+  margin: 0px;
+}
+.footer-content {
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+.footer {
+  background: black;
+  padding: 30px 0px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.footer .row {
+  width: 100%;
+  margin: 1% 0%;
+  padding: 0.6% 0%;
+  color: gray;
+  font-size: 0.8em;
+}
+
+.footer .row a {
+  text-decoration: none;
+  color: gray;
+  transition: 0.5s;
+}
+
+.footer .row a:hover {
+  color: white;
+}
+
+
+.footer .row ul {
+  width: 100%;
+}
+
+.footer .row ul li {
+  display: inline-block;
+  margin: 0px 30px;
+}
+
+.footer .row a i {
+  font-size: 2em;
+  margin: 0% 1%;
+}
