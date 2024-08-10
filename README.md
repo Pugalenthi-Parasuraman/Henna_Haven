@@ -14,12 +14,16 @@
    git clone https://github.com/Pugalenthi-Parasuraman/Henna_Haven_Webdesign.git
    ```
 
-## 🌐 social media:
+## 🌐 social media
 
 - [LinkedIn](https://www.linkedin.com/in/pugalenthi-p/) 🔗
 - [GitHub](https://github.com/Pugalenthi-Parasuraman) 💻
 - [Twitter](https://x.com/PUGALENTHI_123) 🐦
 
-© 2021 Marees Mehndi - All rights reserved | Designed by Pugal ✨
+## 📄 License
+**This project is licensed under the MIT License. See the LICENSE file for details.**
+
+© 2021 Mehndi - All rights reserved | Designed by Pugal ✨
+
 
 
