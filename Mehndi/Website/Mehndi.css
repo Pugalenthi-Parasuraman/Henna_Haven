@@ -171,7 +171,6 @@ body {
 
 .main-image-bg:hover {
   transform: scale(1.1);
-  
   box-shadow: 1px 1px 20px 8px #51505060;
 }
 
@@ -301,7 +300,7 @@ button:hover::before {
 }
 
 footer {
-  padding-top: 500px;
+  padding-top: 10px;
   margin: 0px;
 }
 .footer-content {
@@ -309,9 +308,59 @@ footer {
   scroll-snap-align: start;
 }
 
+.footer-content h1 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 25px 0px 0px 0px;
+  letter-spacing: 1px;
+  font-family: "Poppins";
+  text-align: center;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.image-container {
+    flex: 1;
+    max-width: 50%;
+    padding: 10px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.text-container {
+    flex: 1;
+    max-width: 50%;
+    padding: 10px;
+}
+
+.text-container h1 {
+    font-family: 'Poppins', serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.text-container p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: justify;
+  
+}
+
+
 .footer {
   background-color: #f9f5f6;
-  padding: 30px 0px;
+  padding-top: 30px 0px;
   font-family: "Poppins", sans-serif;
   text-align: center;
 }
