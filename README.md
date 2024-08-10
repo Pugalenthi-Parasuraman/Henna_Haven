@@ -8,6 +8,12 @@
 - **Services**: We offer customized Mehndi services for bridal events, parties, and more.
 - **Elegant UI**: A user-friendly and visually appealing interface that highlights the beauty of Mehndi art.
 
+**Clone the repository:**
+
+   ```bash
+   git clone https://github.com/Pugalenthi-Parasuraman/BreadcrumbsHenna_Haven_Webdesign.git
+   ```
+
 ## 🌐 social media:
 
 - [LinkedIn](https://www.linkedin.com/in/pugalenthi-p/) 🔗
@@ -16,9 +22,4 @@
 
 © 2021 Marees Mehndi - All rights reserved | Designed by Pugal ✨
 
-**Clone the repository:**
-
-   ```bash
-   git clone https://github.com/Pugalenthi-Parasuraman/BreadcrumbsHenna_Haven_Webdesign.git
-   ```
 
