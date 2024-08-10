@@ -11,7 +11,7 @@
 **Clone the repository:**
 
    ```bash
-   git clone https://github.com/Pugalenthi-Parasuraman/BreadcrumbsHenna_Haven_Webdesign.git
+   git clone https://github.com/Pugalenthi-Parasuraman/Henna_Haven_Webdesign.git
    ```
 
 ## 🌐 social media:
