@@ -8,7 +8,9 @@
 - **Services**: We offer customized Mehndi services for bridal events, parties, and more.
 - **Elegant UI**: A user-friendly and visually appealing interface that highlights the beauty of Mehndi art.
 
-## 🚀Clone the repository
+## 🚀Getting Started
+
+*To view the website locally*
 
    ```bash
    git clone https://github.com/Pugalenthi-Parasuraman/Henna_Haven_Webdesign.git
