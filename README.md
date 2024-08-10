@@ -11,7 +11,7 @@ Welcome to **Henna_Haven**! Explore the art of Mehndi with our exquisite collect
 
 ---
 
-Connect with us on social media:
+# Connect with us on social media:
 
 - [LinkedIn](https://www.linkedin.com/in/pugalenthi-p/) 🔗
 - [GitHub](https://github.com/Pugalenthi-Parasuraman) 💻
