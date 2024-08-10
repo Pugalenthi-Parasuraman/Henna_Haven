@@ -16,7 +16,9 @@
 
 © 2021 Marees Mehndi - All rights reserved | Designed by Pugal ✨
 
- ```bash
- -git [clone](https://github.com/Pugalenthi-Parasuraman/Henna_Haven_Webdesign.git) </>
+**Clone the repository:**
 
+   ```bash
+   git clone https://github.com/Pugalenthi-Parasuraman/BreadcrumbsHenna_Haven_Webdesign.git
+   ```
 
