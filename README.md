@@ -14,7 +14,9 @@
 - [GitHub](https://github.com/Pugalenthi-Parasuraman) 💻
 - [Twitter](https://x.com/PUGALENTHI_123) 🐦
 
+© 2021 Marees Mehndi - All rights reserved | Designed by Pugal ✨
+
  ```bash
    git clone https://github.com/Pugalenthi-Parasuraman/Henna_Haven_Webdesign.git
 
-© 2021 Marees Mehndi - All rights reserved | Designed by Pugal ✨
+
