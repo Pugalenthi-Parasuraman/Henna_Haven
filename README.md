@@ -21,7 +21,7 @@
 - [Twitter](https://x.com/PUGALENTHI_123) 🐦
 
 ## 📄 License
-**This project is licensed under the MIT License. See the - [LICENSE] file for details.**
+This project is licensed under the MIT License. See the - [LICENSE] file for details.
 
 © 2021 Mehndi - All rights reserved | Designed by Pugal ✨
 
